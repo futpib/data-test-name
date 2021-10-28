@@ -1,7 +1,7 @@
 {
   "name": "data-test-name",
-  "version": "1.0.0",
-  "main": "index.js",
+  "version": "1.1.0",
+  "main": "lib/index.js",
   "license": "MIT",
   "author": "futpib <futpib@gmail.com>",
   "homepage": "https://github.com/futpib/data-test-name",
@@ -25,7 +25,6 @@
     "prepare": "husky install || true",
     "prepublish": "yarn build"
   },
-  "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "dependencies": {},
   "devDependencies": {
