@@ -1,13 +1,14 @@
 
 import test from 'ava';
 
+import type { DataTestNameSelector } from '.';
 import { selector } from '.';
 
 test('selector', t => {
 	const a = selector('a');
 	const c = selector.css('#c');
 
-	const is = (actual, expected) => {
+	const is = (actual: DataTestNameSelector, expected: string) => {
 		t.is(actual(), expected);
 		t.is(String(actual), expected);
 	};
